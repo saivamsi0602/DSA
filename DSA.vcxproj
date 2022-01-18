@@ -144,7 +144,8 @@
     <ClCompile Include="Algorithms\String Algorithms\KmpAlgorithm.ixx" />
     <ClCompile Include="Algorithms\String Algorithms\ManachersAlgorithm.ixx" />
     <ClCompile Include="Algorithms\String Algorithms\Zfunction.ixx" />
-    <ClCompile Include="Algorithms\Tree Algorithms\TreeNode.ixx" />
+    <ClCompile Include="Algorithms\Tree Algorithms\LCAtwoNodes.ixx" />
+    <ClCompile Include="Data structures\Trees\TreeNode.ixx" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

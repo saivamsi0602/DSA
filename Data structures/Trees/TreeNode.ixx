@@ -1,8 +1,8 @@
 export module TreeNode;
 
-namespace algorithms
+namespace datastructures
 {
-	namespace treeAlgorithms
+	namespace trees
 	{
 		export class TreeNode
 		{

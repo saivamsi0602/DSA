@@ -27,7 +27,10 @@
     <ClCompile Include="Algorithms\String Algorithms\ManachersAlgorithm.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Algorithms\Tree Algorithms\TreeNode.ixx">
+    <ClCompile Include="Algorithms\Tree Algorithms\LCAtwoNodes.ixx">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Data structures\Trees\TreeNode.ixx">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
