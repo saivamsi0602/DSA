@@ -1,23 +1,23 @@
 
 #include <iostream>
 #include <vector>
-import LCAtwoNodes;
-import TreeNode;
+import SegmentTree;
 using namespace std;
 
 int main()
 {
 	cout << "Hello world!" << endl;
-	using namespace algorithms::treeAlgorithms;
-	using namespace datastructures::trees;
-	TreeNode *t = new TreeNode(1);
-	t->left = new TreeNode(2);
-	t->right = new TreeNode(3);
-	t->left->left = new TreeNode(4);
-	t->left->right = new TreeNode(5);
-	t->right->right = new TreeNode(6);
-	cout << lcaTwoNodes(t, 4, 5) << endl;
-	cout << lcaTwoNodes(t, 6, 5) << endl;
-	cout << lcaTwoNodes(t, 1, 5) << endl;
+	vector<int> v{ 4,3,5,7,1,6,2,9 };
+	datastructures::trees::SegmentTree s(v);
+	cout << s.rangeQuery(0, 7) << endl;
+	cout << s.rangeQuery(3, 6) << endl;
+	cout << s.rangeQuery(0, 3) << endl;
+	cout << s.rangeQuery(5, 7) << endl;
+	s.update(2, 0);
+	cout << s.rangeQuery(0, 7) << endl;
+	cout << s.rangeQuery(3, 6) << endl;
+	cout << s.rangeQuery(0, 3) << endl;
+	cout << s.rangeQuery(5, 7) << endl;
+
 	cout << endl;
 }
